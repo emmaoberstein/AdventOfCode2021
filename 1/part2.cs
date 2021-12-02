@@ -1,7 +1,8 @@
 using System;
 					
 public class Program
-{	public static void Main()
+{	
+	public static void Main()
 	{
 		int larger = 0;
 		var readings = input.Split(new string[] { "\r\n" }, StringSplitOptions.None);
