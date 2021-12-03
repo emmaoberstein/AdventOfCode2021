@@ -33,7 +33,7 @@ public class Program
 					break;
 			}	
 			
-			var readingsLeft = readings.Where(r => r.StartsWith(bitPrefix));
+			var readingsLeft = readings.Where(r => r[i] == bitPrefix[i]);
 			if (readingsLeft.Count() == 1)
 			{
 				return Convert.ToInt32(readingsLeft.First(), 2);
