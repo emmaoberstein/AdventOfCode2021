@@ -25,7 +25,7 @@ public class Program
 		}
 		
 		var gamma = String.Join("", (from count in bitCount select count > 0 ? "1" : "0").ToList());
-    var epsilon = String.Join("", (from count in bitCount select count > 0 ? "0" : "1").ToList());
+    		var epsilon = String.Join("", (from count in bitCount select count > 0 ? "0" : "1").ToList());
 		
 		Console.WriteLine(Convert.ToInt32(gamma, 2) * Convert.ToInt32(epsilon, 2));	
 	}
