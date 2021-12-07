@@ -111,31 +111,6 @@ public class Program
 					break;
 				}
 			}
-			
-			if (isWin)
-			{
-				return isWin;
-			}
-		}
-		
-		for (int i=0; i < boardLength; i++)
-		{
-			isWin = true;
-			if (board[i,i] != boardMarker) 
-			{
-				isWin = false;
-				break;
-			}
-		}
-		
-		for (int i = boardLength - 1; i >= 0; i--)
-		{
-			isWin = true;
-			if (board[i,i] != boardMarker) 
-			{
-				isWin = false;
-				break;
-			}
 		}
 		
 		return isWin;
