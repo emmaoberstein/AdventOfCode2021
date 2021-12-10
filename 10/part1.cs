@@ -8,10 +8,10 @@ public class Program
 	{
 		Dictionary<char, char> charMapping = new Dictionary<char, char> ()
 		{		
-            { '(', ')' },
-            { '[', ']' },
-            { '{', '}' },
-            { '<', '>' }
+           	 	{ '(', ')' },
+           		{ '[', ']' },
+            		{ '{', '}' },
+            		{ '<', '>' }
 		};
 		
 	 	var readings = input.Split(new string[] { "\r\n" }, StringSplitOptions.None);
@@ -37,10 +37,10 @@ public class Program
 		
 		Dictionary<char, int> scoreMapping = new Dictionary<char, int> ()
 		{		
-            { ')' , 3 },
-            { ']', 57 },
-            { '}', 1197 },
-            { '>', 25137 }
+            		{ ')' , 3 },
+            		{ ']', 57 },
+            		{ '}', 1197 },
+            		{ '>', 25137 }
 		};
 		
 		int total = 0;
