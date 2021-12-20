@@ -11,6 +11,6 @@ public class Program
 			y += v--;
 		}
 			
-        Console.WriteLine(y);
+        	Console.WriteLine(y);
 	}
 }
