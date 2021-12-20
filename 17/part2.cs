@@ -13,7 +13,7 @@ public class Program
 			}
 		}
 		
-        Console.WriteLine(values);
+        	Console.WriteLine(values);
 	}
 	
 	public static int hitsTarget(int xVelocity, int yVelocity)
